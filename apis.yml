@@ -1,7 +1,23 @@
 aid: jumpcam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jumpcam.png
 name: JumpCam
-description: 'JumpCam is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'JumpCam was a consumer mobile video startup (San Francisco, founded 2013 by former Yammer/YouTube
+  product leader David Stewart) that let groups of friends collaboratively shoot and edit a single video from
+  up to thirty short clips. It raised $2.7M led by Google Ventures (GV) and shipped an iOS app. The company is
+  no longer active and jumpcam.com is now a parked domain listed for sale (Afternic); no developer portal, API,
+  documentation, or other public API surface exists. Surfaced as a GV portfolio company and added to the API
+  Evangelist network as a stub; enrichment confirmed there is no live API to profile.'
 url: https://raw.githubusercontent.com/api-evangelist/jumpcam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +27,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: inactive
+x-domain-status: parked-for-sale
+x-enrichment: 'checked 2026-07-19: no API/OpenAPI/dev portal; jumpcam.com parked (307 -> afternic.com), api.jumpcam.com does not resolve; all paths return parking stub'
 tags:
 - Company
 - Consumer
+- Video
+- Mobile
+- Collaboration
+- Inactive
 apis: []
 maintainers:
 - FN: Kin Lane
