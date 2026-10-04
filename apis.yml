@@ -39,7 +39,7 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
-x-status: inactive
+x-status: defunct
 x-domain-status: parked-for-sale
 x-enrichment: 'checked 2026-07-19: no API/OpenAPI/dev portal; jumpcam.com parked (307 -> afternic.com), api.jumpcam.com does not resolve; all paths return parking stub'
 tags:
@@ -49,6 +49,7 @@ tags:
 - Mobile
 - Collaboration
 - Inactive
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
